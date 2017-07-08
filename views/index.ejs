@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+<body>
+    <h1>点名系统</h1>
+   	<div class="box">
+   		<a href="./dm">开始点名</a>
+      <a href="./add">录入学生信息</a>
+      <% if(name){%>
+
+          <p>恭喜<%= name %></p>
+
+      <%}%>
+   	</div> 
+
+  </body>
+</html>
